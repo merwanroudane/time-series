@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # Page configuration
-st.set_page_config(layout="wide", page_title="Time Series Stationarity Concepts")
+st.set_page_config(layout="wide", page_title="Time Series Stationarity Concepts ")
 
 # Custom CSS
 st.markdown("""
@@ -57,7 +57,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-header">Time Series Stationarity & Unit Root Tests</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">Time Series Stationarity & Unit Root Tests by Dr Merwan Roudane </div>', unsafe_allow_html=True)
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
